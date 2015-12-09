@@ -11,8 +11,7 @@ Action()
 //	
 //new one	
 lr_start_transaction("Cookies");
-//latest commit
-
+//latest_commit_for revert
 	web_custom_request("Get_new_cookies)",
 		"URL=http://{ServerName}/qcbin/rest/site-session",
 		"Method=GET",
