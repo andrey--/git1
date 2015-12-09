@@ -3,7 +3,7 @@ Action()
 //	int p, j, iterMax, len;
 //char par[10], requestBody[1000], reqName[50],reqStatus[10], reqType[10];//, backUp[100], backUp2[100];
 //	char *des;
-//	char *backUp;
+//jhkhkjchar *backUp;
 //	char *backUp2;
 //	des=(char *)malloc(300 * sizeof(char));
 //	backUp=(char *)malloc(100 * sizeof(char));
