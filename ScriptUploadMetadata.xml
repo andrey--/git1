@@ -25,6 +25,7 @@
     <FileEntry Name="combined_869.c" Filter="2" />
     <FileEntry Name=".gitignore" Filter="1" />
     <FileEntry Name="869.prm.bak" Filter="1" />
+    <FileEntry Name="SOLR_cache_empty.prm.bak" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name=".git\" Filter="1" />
   </GeneralFiles>
