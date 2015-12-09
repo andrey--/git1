@@ -13,6 +13,7 @@ Action()
 lr_start_transaction("Cookies");
 //latest commit
 //first commit
+//second commit
 
 	web_custom_request("Get_new_cookies)",
 		"URL=http://{ServerName}/qcbin/rest/site-session",
