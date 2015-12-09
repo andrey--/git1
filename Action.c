@@ -3,14 +3,14 @@ Action()
 //	int p, j, iterMax, len;
 //char par[10], requestBody[1000], reqName[50],reqStatus[10], reqType[10];//, backUp[100], backUp2[100];
 //	char *des;
-//jhkhkjchar *backUp;
+    *backUp;
 //	char *backUp2;
 //	des=(char *)malloc(300 * sizeof(char));
 //	backUp=(char *)malloc(100 * sizeof(char));
 //	backUp2=(char *)malloc(100 * sizeof(char));
 //	
 //new one	
-lr_start_transaction("Cookies");
+lr_start_transaction("Cookies");//65456
 
 	web_custom_request("Get_new_cookies)",
 		"URL=http://{ServerName}/qcbin/rest/site-session",
