@@ -23,8 +23,8 @@ StartRow="1"
 OutOfRangePolicy="ContinueWithLast"
 [parameter:nIteration]
 Format="%d"
-Type="CurrentIteration"
 OriginalValue=""
+Type="CurrentIteration"
 ParamName="nIteration"
 [parameter:prmRQ_TARGET_RCYC]
 Format="%lu"
@@ -51,6 +51,11 @@ Type="Unique"
 OriginalValue=""
 BlockSize="100"
 OutOfRangePolicy="ContinueWithLast"
+[parameter:parID]
+Format="%d"
+OriginalValue=""
+Type="CurrentIteration"
+ParamName="parID"
 [parameter:prmReqName]
 Format="RequirementWebUI_%lu"
 ParamName="prmReqName"
@@ -59,11 +64,6 @@ Type="Random"
 MaxValue="100000000"
 OriginalValue=""
 MinValue="1"
-[parameter:parID]
-Format="%d"
-Type="CurrentIteration"
-OriginalValue=""
-ParamName="parID"
 [parameter:reqName]
 Format="req_rest_reggie%lu"
 ParamName="reqName"
